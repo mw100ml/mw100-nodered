@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 256M
+  instances: 1
+  domain: mybluemix.net
+  name: mw100-nodered
+  host: mw100-nodered
+  disk_quota: 1024M
+  services:
+  - mw100-nodered-cloudantNoSQLDB
